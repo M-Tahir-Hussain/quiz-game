@@ -28,7 +28,7 @@ Login with password verification
 
 User data stored in users.txt
 
-🧮 Quiz Types
+## 🧮 Quiz Types
 
 Addition
 
@@ -45,7 +45,7 @@ Level	Number Range
 Easy	1 – 10
 Medium	1 – 100
 Hard	1 – 1000
-⏱ Time Management
+## ⏱ Time Management
 
 2 minutes total quiz time
 
@@ -53,7 +53,7 @@ Hard	1 – 1000
 
 Real-time input handling using kbhit() and getch()
 
-📊 Scoring System
+## 📊 Scoring System
 
 10 questions per level
 
@@ -61,7 +61,7 @@ Score percentage displayed
 
 Progress to next level if score ≥ 70%
 
-🧠 Core Concepts Used
+## 🧠 Core Concepts Used
 
 File Handling (fopen, fgets, fprintf)
 
@@ -77,7 +77,7 @@ Floating point comparison
 
 ANSI escape codes for colored output
 
-🗂️ File Structure
+## 🗂️ File Structure
 ├── main.c
 ├── users.txt
 ├── README.md
@@ -87,7 +87,7 @@ main.c → Complete quiz application
 
 users.txt → Stores usernames and passwords
 
-🧑‍💻 User Flow
+## 🧑‍💻 User Flow
 
 User starts the program
 
@@ -105,7 +105,7 @@ Receives score & feedback
 
 Proceeds to next level (if eligible)
 
-🧮 Example Output
+## 🧮 Example Output
 What is the answer of 12 + 5 : 17
 Excellent
 
@@ -125,7 +125,7 @@ If timeout occurs during menu selection, a default option is chosen
 
 Input returns special values (-1, -9999) on timeout
 
-🛠 Compilation & Execution
+## 🛠 Compilation & Execution
 Compile
 gcc main.c -o quiz
 
@@ -133,10 +133,10 @@ Run
 ./quiz
 
 
-⚠️ Note:
+## ⚠️ Note:
 This program uses conio.h, so it works best on Windows or Turbo C / MinGW environments.
 
-📌 Limitations
+## 📌 Limitations
 
 Passwords are stored in plain text
 
@@ -144,7 +144,7 @@ conio.h is not portable to Linux/macOS
 
 Maximum username/password length is limited
 
-📚 Learning Outcomes
+## 📚 Learning Outcomes
 
 By studying this project, you will learn:
 
@@ -158,7 +158,7 @@ How to structure a large C program
 
 How to use file handling effectively
 
-🚀 Future Improvements
+## 🚀 Future Improvements
 
 Encrypt passwords
 
@@ -170,6 +170,6 @@ Add sound effects
 
 Cross-platform input handling
 
-📄 License
+## 📄 License
 
 This project is for educational purposes and is free to use and modify.
